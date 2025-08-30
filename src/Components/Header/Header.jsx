@@ -66,10 +66,10 @@ export default function Header() {
                 {isCategoryOpen && (
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border z-50">
                     <div className="py-2">
-                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Toys</a>
-                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Games</a>
-                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Learning</a>
-                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Arts & Crafts</a>
+                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Exam</a>
+                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Class</a>
+                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Teachers</a>
+                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Students</a>
                     </div>
                   </div>
                 )}

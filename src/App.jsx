@@ -10,6 +10,7 @@ import KidsLanding from "./Components/Home/KidsLanding";
 import AboutSection from "./Components/AboutPage/AboutSection";
 import AboutUsSection from "./Components/AboutPage/AboutUsSection";
 import OurValueSection from "./Components/AboutPage/OurValueSection";
+import Instructor from "./Components/AboutPage/Instructor";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
                 <AboutSection />
                 <AboutUsSection />
                 <OurValueSection />
+                <Instructor />
               </>
             }
           />
