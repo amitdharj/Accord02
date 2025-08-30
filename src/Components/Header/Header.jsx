@@ -115,7 +115,7 @@ export default function Header() {
                 </button>
                 <NavLink to="/" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Home</NavLink>
                 <NavLink to="/AboutSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">About Us</NavLink>
-                <NavLink to="/Program" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
+                <NavLink to="/ProgramSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
                 <NavLink to="/Pages" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Pages</NavLink>
                 <NavLink to="/Blog" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Blog</NavLink>
                 <NavLink to="/ContactSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</NavLink>
