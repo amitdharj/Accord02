@@ -69,7 +69,7 @@ export default function Classes() {
           {classes.map((item, index) => (
             <div
               key={index}
-              className="bg-stone-100 rounded-3xl shadow hover:shadow-lg shadow-stone-400 transition overflow-hidden"
+              className="bg-stone-100 rounded-3xl shadow hover:scale-105 hover:shadow-lg shadow-stone-400 transition overflow-hidden"
             >
               <img
                 src={item.image}
