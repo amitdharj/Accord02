@@ -74,12 +74,11 @@ export default function Header() {
                   </div>
                 )}
               </div>
-              <a href="#" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Home</a>
-              <a href="#" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">About Us</a>
-              <a href="#" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</a>
-              <a href="#" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Pages</a>
-              <a href="#" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Blog</a>
-              <a href="#" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</a>
+              <NavLink to="/" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Home</NavLink>
+              <NavLink to="/AboutSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">About Us</NavLink>
+              <NavLink to="/Programs" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
+              <NavLink to="/Blog" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Blog</NavLink>
+              <NavLink to="/Contact" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</NavLink>
             </nav>
 
             {/* Right Side Icons & CTA */}

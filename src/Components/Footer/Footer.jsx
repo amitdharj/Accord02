@@ -6,7 +6,7 @@ const Footer = () => {
       {/* Main Footer Content */}
       <div className="bg-gray-100 px-8 py-16 relative overflow-hidden">
         {/* Giraffe Illustration */}
-        <div className="absolute right-8 top-4">
+        <div className="absolute right-8 top-14  animate-pulse">
           <div className="relative">
             {/* Giraffe Body */}
             <div className="w-32 h-48 bg-orange-200 rounded-full relative">
@@ -22,8 +22,8 @@ const Footer = () => {
               <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
                 <div className="w-16 h-20 bg-orange-200 rounded-full relative">
                   {/* Eyes */}
-                  <div className="absolute top-6 left-3 w-2 h-1 bg-gray-800 rounded-full"></div>
-                  <div className="absolute top-6 right-3 w-2 h-1 bg-gray-800 rounded-full"></div>
+                  <div className="absolute top-6 left-3 w-2 h-1 bg-gray-700 rounded-full"></div>
+                  <div className="absolute top-6 right-3 w-2 h-1 bg-gray-700 rounded-full"></div>
                   {/* Nostrils */}
                   <div className="absolute top-10 left-1/2 transform -translate-x-1/2 w-1 h-2 bg-gray-600 rounded-full"></div>
                   {/* Horns */}
@@ -52,6 +52,7 @@ const Footer = () => {
         </div>
         
         {/* Scroll to top button */}
+        
         <div className="absolute right-8 bottom-8">
           <button className="w-12 h-12 bg-orange-400 hover:bg-orange-500 rounded-full flex items-center justify-center shadow-lg transition-colors">
             <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
