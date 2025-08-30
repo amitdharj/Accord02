@@ -130,7 +130,7 @@ const EventsSection = () => {
   };
 
   return (
-    <div className="relative bg-gradient-to-t from-stone-500 via-orange-200 to-gray-50 min-h-screen py-20 px-8 overflow-hidden">
+    <div className="relative bg-gradient-to-t from-stone-400 via-orange-200 to-gray-50 min-h-screen py-20 px-8 overflow-hidden">
       {/* Background Decorative Elements */}
       <div className="absolute inset-0 opacity-10">
         {/* Hearts */}

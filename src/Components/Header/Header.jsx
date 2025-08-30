@@ -78,7 +78,7 @@ export default function Header() {
               <NavLink to="/AboutSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">About Us</NavLink>
               <NavLink to="/ProgramSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
               <NavLink to="/Blog" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Blog</NavLink>
-              <NavLink to="/Contact" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</NavLink>
+              <NavLink to="/ContactSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</NavLink>
             </nav>
 
             {/* Right Side Icons & CTA */}
@@ -115,10 +115,10 @@ export default function Header() {
                 </button>
                 <NavLink to="/" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Home</NavLink>
                 <NavLink to="/AboutSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">About Us</NavLink>
-                <NavLink to="/Programs" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
+                <NavLink to="/Program" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
                 <NavLink to="/Pages" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Pages</NavLink>
                 <NavLink to="/Blog" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Blog</NavLink>
-                <NavLink to="/Contact" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</NavLink>
+                <NavLink to="/ContactSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</NavLink>
                 <div className="flex items-center space-x-4 pt-3 border-t border-orange-200">
                   <div className="relative">
                     <ShoppingCart size={20} className="text-gray-600" />

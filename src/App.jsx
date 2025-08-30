@@ -13,6 +13,7 @@ import OurValueSection from "./Components/AboutPage/OurValueSection";
 import Instructor from "./Components/AboutPage/Instructor";
 import Classes from "./Components/Programs/Classes";
 import ProgramSection from "./Components/Programs/Program";
+import ContactSection from "./Components/Contact/ContactSection";
 
 function App() {
   return (
@@ -43,14 +44,25 @@ function App() {
               </>
             }
           />
-          <Route path="/ProgramSection" element={
-            <>
-            <ProgramSection />
-            <Classes />
-            </>
-            
+          <Route
+            path="/ProgramSection"
+            element={
+              <>
+                <ProgramSection />
+                <Classes />
+              </>
+            }
+          />
+          <Route
+            path="/ContactSection"
+            element={
+              <>
+                <ContactSection />
+              
+              </>
+            }
+          />
 
-            } />
         </Routes>
         <Footer />
       </HashRouter>
