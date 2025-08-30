@@ -76,7 +76,7 @@ export default function Header() {
               </div>
               <NavLink to="/" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Home</NavLink>
               <NavLink to="/AboutSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">About Us</NavLink>
-              <NavLink to="/Programs" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
+              <NavLink to="/ProgramSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
               <NavLink to="/Blog" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Blog</NavLink>
               <NavLink to="/Contact" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</NavLink>
             </nav>

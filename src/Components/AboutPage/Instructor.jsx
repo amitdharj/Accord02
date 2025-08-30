@@ -39,7 +39,7 @@ const instructors = [
 
 export default function Instructor() {
   return (
-    <section className="py-12 pt-20 pb-20 bg-[#fdf7f2]">
+    <section className="py-12 pt-20 pb-20 ">
       <div className="text-center mb-10">
         <h4 className="text-orange-500 text-lg font-medium mb-1">Our Experts</h4>
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
