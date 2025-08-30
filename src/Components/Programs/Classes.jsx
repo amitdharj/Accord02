@@ -4,7 +4,7 @@ const classes = [
   {
     title: "English Class",
     description: "Lorem ipsum dolor consectetur the adipiscing elit...",
-    image: "/images/english.jpg", // replace with your images
+    image: "English.jpg", // replace with your images
     age: "(2-5 years)",
     weekly: "5 Days",
     time: "4.30 Hrs",
@@ -12,15 +12,15 @@ const classes = [
   {
     title: "Chemistry Class",
     description: "Lorem ipsum dolor consectetur the adipiscing elit...",
-    image: "/images/chemistry.jpg",
+    image: "/Imagination.jpg",
     age: "(2-5 years)",
     weekly: "5 Days",
     time: "4.30 Hrs",
   },
   {
-    title: "Drawing Class",
+    title: "Playing Class",
     description: "Lorem ipsum dolor consectetur the adipiscing elit...",
-    image: "/images/drawing.jpg",
+    image: "Art.jpg",
     age: "(2-5 years)",
     weekly: "5 Days",
     time: "4.30 Hrs",
@@ -28,7 +28,7 @@ const classes = [
   {
     title: "Yoga Classes",
     description: "Lorem ipsum dolor consectetur the adipiscing elit...",
-    image: "/images/english.jpg", // replace with your images
+    image: "/Art.jpg", // replace with your images
     age: "(2-5 years)",
     weekly: "5 Days",
     time: "4.30 Hrs",
@@ -36,7 +36,7 @@ const classes = [
   {
     title: "Art and Craft Classes",
     description: "Lorem ipsum dolor consectetur the adipiscing elit...",
-    image: "/images/chemistry.jpg",
+    image: "/English.jpg",
     age: "(2-5 years)",
     weekly: "5 Days",
     time: "4.30 Hrs",
@@ -44,7 +44,7 @@ const classes = [
   {
     title: "Imagination Classes",
     description: "Lorem ipsum dolor consectetur the adipiscing elit...",
-    image: "/images/drawing.jpg",
+    image: "/Imagination.jpg",
     age: "(2-5 years)",
     weekly: "5 Days",
     time: "4.30 Hrs",
