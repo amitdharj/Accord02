@@ -1,4 +1,5 @@
 import { Play, Plus, Music, } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function () {
   return (
@@ -58,10 +59,10 @@ export default function () {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6">
-              <button className="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center space-x-2">
+              <Link to="/ContactSection" className="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center space-x-2">
                 <span>Apply Today</span>
                 <span className="ml-2">→</span>
-              </button>
+              </Link>
               
               <button className="flex items-center space-x-3 text-gray-700 hover:text-orange-500 transition-colors group">
                 <div className="w-12 h-12 bg-white rounded-full shadow-lg flex items-center justify-center group-hover:shadow-xl transition-all duration-300">

@@ -28,22 +28,22 @@ import React from 'react';
 
       {/* Decorative elements */}
       {/* Planet with rocket - top left */}
-      <div className="absolute top-16 left-20">
+      <div className="absolute top-16 left-20 animate-bounce">
         <div className="relative">
           {/* Planet */}
-          <div className="w-16 h-16 bg-white bg-opacity-20 rounded-full relative">
+          <div className="w-16 h-16 bg-cyan-500 bg-opacity-20 rounded-full relative">
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-1 bg-white bg-opacity-30 rounded-full rotate-12"></div>
           </div>
           {/* Rocket */}
           <div className="absolute -top-4 -right-2">
-            <div className="w-3 h-8 bg-white bg-opacity-30 rounded-t-full"></div>
-            <div className="w-4 h-2 bg-white bg-opacity-30 rounded-b mx-auto -mt-1"></div>
+            <div className="w-3 h-8 bg-cyan-400 bg-opacity-30 rounded-t-full"></div>
+            <div className="w-4 h-2 bg-stone-600 bg-opacity-30 rounded-b mx-auto -mt-1"></div>
           </div>
         </div>
       </div>
 
       {/* Molecules/atoms - top right */}
-      <div className="absolute top-12 right-40">
+      <div className="absolute top-12 right-40 animate-spin">
         <div className="relative">
           {/* Central atom */}
           <div className="w-6 h-6 bg-white bg-opacity-30 rounded-full"></div>
@@ -61,7 +61,7 @@ import React from 'react';
       <div className="absolute top-8 right-16">
         <div className="relative">
           {/* Balloon */}
-          <div className="w-12 h-16 bg-cyan-400 rounded-full relative overflow-hidden">
+          <div className="w-12 h-16 bg-pink-500 rounded-full relative overflow-hidden animate-pulse">
             {/* Balloon stripes */}
             <div className="absolute top-0 left-0 right-0 h-3 bg-cyan-500"></div>
             <div className="absolute top-6 left-0 right-0 h-3 bg-cyan-500"></div>
@@ -96,7 +96,7 @@ import React from 'react';
       </div>
 
       {/* Book/tablet - right side */}
-      <div className="absolute bottom-16 right-20">
+      <div className="absolute bottom-16 right-20 animate-ping duration-1000">
         <div className="w-8 h-10 bg-white bg-opacity-30 rounded-lg transform rotate-12 relative">
           {/* Screen/page lines */}
           <div className="absolute top-2 left-1 right-1 h-px bg-white bg-opacity-40"></div>

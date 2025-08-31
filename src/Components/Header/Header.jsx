@@ -49,6 +49,7 @@ export default function Header() {
             <nav className="hidden lg:flex items-center space-x-8">
               <div className="relative">
                 <button 
+                 
                   onClick={() => setIsCategoryOpen(!isCategoryOpen)}
                   className="flex items-center space-x-1 bg-orange-100 px-4 py-2 rounded-lg text-orange-600 font-medium hover:bg-orange-200 transition-colors"
                 >

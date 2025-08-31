@@ -1,4 +1,5 @@
 import { Check, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 
 
@@ -137,10 +138,10 @@ import { Check, Phone } from 'lucide-react';
 
             {/* Action buttons */}
             <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-6 pt-4">
-              <button className="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center space-x-2">
+              <Link to="/AboutSection" className="bg-gradient-to-r from-orange-400 to-orange-500 text-white px-8 py-4 rounded-full font-semibold hover:shadow-xl transition-all duration-300 hover:scale-105 flex items-center space-x-2">
                 <span>Explore More</span>
                 <span className="ml-2">→</span>
-              </button>
+              </Link>
               
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
