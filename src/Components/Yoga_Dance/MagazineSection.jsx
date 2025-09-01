@@ -21,7 +21,7 @@ const MagazineSection = () => {
   ];
 
   return (
-    <div className="bg-orange-50 pl-20 pr-20 pt-10 pb-26">
+    <div className="bg-orange-50 px-10 py-10 pt-10 pb-26">
       <div className="container mx-auto px-6">
         {/* Header Section */}
         <div className="text-center mb-12">

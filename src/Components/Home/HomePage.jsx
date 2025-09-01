@@ -1,6 +1,7 @@
 import { Play, Plus, Music, } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+
 export default function HomePage () {
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-orange-50 to-pink-50 overflow-hidden">
@@ -38,8 +39,9 @@ export default function HomePage () {
               <Plus size={16} className="text-orange-500" />
             </div>
 
+
             {/* Main Heading */}
-            <div className="space-y-2">
+            <div className="space-y-2">              
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
                 Kids' Promising
               </h1>

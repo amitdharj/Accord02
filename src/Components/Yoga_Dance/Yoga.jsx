@@ -5,7 +5,7 @@ const YogaSection = () => {
   return (
     <div className="bg-orange-50">
       {/* Hero Section */}
-      <div className="relative pl-20 pr-20  bg-orange-50 overflow-hidden">
+      <div className="relative px-10 py-10  bg-orange-50 overflow-hidden">
         <div className="container mx-auto px-6 py-16 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
@@ -45,7 +45,7 @@ const YogaSection = () => {
       </div>
 
       {/* Features Section */}
-      <div className="container mx-auto px-20 py-20">
+      <div className="container mx-auto px-16 py-16">
         <div className="grid md:grid-cols-3 gap-8">
           {/* Feature 1 */}
           <div className="text-center space-y-4">

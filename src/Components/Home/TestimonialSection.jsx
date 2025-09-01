@@ -63,7 +63,7 @@ const TestimonialSection = () => {
   const visibleTestimonials = getVisibleTestimonials();
 
   return (
-    <div className="relative bg-gray-50 py-20 px-8 overflow-hidden">
+    <div className="relative bg-gradient-to-t from-gray-50 to-white py-20 px-8 overflow-hidden">
       {/* Background Decorations */}
       <div className="absolute top-10 left-10">
         {/* Bird illustration */}

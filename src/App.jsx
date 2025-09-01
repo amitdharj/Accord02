@@ -17,11 +17,13 @@ import ContactSection from "./Components/Contact/ContactSection";
 import YogaSection from "./Components/Yoga_Dance/Yoga";
 import MagazineSection from "./Components/Yoga_Dance/MagazineSection";
 
+
 function App() {
   return (
     <>
       <HashRouter>
         <Header />
+        
         <Routes>
           <Route
             path="/"
