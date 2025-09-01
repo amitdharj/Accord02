@@ -14,6 +14,8 @@ import Instructor from "./Components/AboutPage/Instructor";
 import Classes from "./Components/Programs/Classes";
 import ProgramSection from "./Components/Programs/Program";
 import ContactSection from "./Components/Contact/ContactSection";
+import YogaSection from "./Components/Yoga_Dance/Yoga";
+import MagazineSection from "./Components/Yoga_Dance/MagazineSection";
 
 function App() {
   return (
@@ -58,11 +60,18 @@ function App() {
             element={
               <>
                 <ContactSection />
-              
               </>
             }
           />
-
+          <Route
+            path="/YogaSection"
+            element={
+              <>
+                <YogaSection />
+                <MagazineSection />
+              </>
+            }
+          />
         </Routes>
         <Footer />
       </HashRouter>

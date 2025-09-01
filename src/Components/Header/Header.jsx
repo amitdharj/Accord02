@@ -78,7 +78,7 @@ export default function Header() {
               <NavLink to="/" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Home</NavLink>
               <NavLink to="/AboutSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">About Us</NavLink>
               <NavLink to="/ProgramSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
-              <NavLink to="/Blog" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Blog</NavLink>
+              <NavLink to="/YogaSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Yoga & Dance</NavLink>
               <NavLink to="/ContactSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</NavLink>
             </nav>
 
@@ -117,7 +117,7 @@ export default function Header() {
                 <NavLink to="/" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Home</NavLink>
                 <NavLink to="/AboutSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">About Us</NavLink>
                 <NavLink to="/ProgramSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
-                <NavLink to="/Blog" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Blog</NavLink>
+                <NavLink to="/YogaSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Yoga & Dance</NavLink>
                 <NavLink to="/ContactSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Contact</NavLink>
                 <div className="flex items-center space-x-4 pt-3 border-t border-orange-200">
                   <div className="relative">
