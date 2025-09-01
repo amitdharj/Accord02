@@ -1,9 +1,9 @@
 import { Play, Plus, Music, } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-export default function () {
+export default function HomePage () {
   return (
-    <div className="relative min-h-screen sm:w-80 md:w-screen bg-gradient-to-br from-orange-50 to-pink-50 overflow-hidden">
+    <div className="relative min-h-screen bg-gradient-to-br from-orange-50 to-pink-50 overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0">
         {/* Large orange circle */}

@@ -121,4 +121,3 @@ import React from 'react';
 }
 
 export default AboutSection;
-3

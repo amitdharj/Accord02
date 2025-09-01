@@ -42,7 +42,7 @@ export default function Header() {
               <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-pink-400 rounded-full flex items-center justify-center">
                 <span className="text-white text-xl font-bold">⭐</span>
               </div>
-              <h1 className="text-2xl font-bold text-gray-800">Kidsa</h1>
+              <Link to="/" className="text-2xl font-bold text-gray-800">Accord</Link>
             </div>
 
             {/* Desktop Navigation */}
