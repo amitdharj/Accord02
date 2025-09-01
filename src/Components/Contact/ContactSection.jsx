@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactSection() {
   return (
-    <section className="py-12 bg-white">
+    <section className="py-12 bg-orange-50">
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
         {/* Left Side - Contact Info */}
         <div className="bg-orange-200 rounded-lg overflow-hidden text-stone-600">

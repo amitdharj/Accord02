@@ -7,15 +7,15 @@ export default function Header() {
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
 
   return (
-    <div className="w-full">
+    <div className="max-w-screen text-wrap m-auto">
       {/* Top Bar */}
-      <div className="bg-slate-600 text-white text-sm">
+      <div className="bg-slate-600 text-white text-sm m-auto">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
           <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <MapPin size={16} className="text-orange-400" />
               <span>6391 Elgin St, Celina, USA</span>
-            </div>
+            </div> */}
             <div className="flex items-center space-x-2">
               <Mail size={16} className="text-orange-400" />
               <span>info@example.com</span>
@@ -23,7 +23,7 @@ export default function Header() {
           </div>
           <div className="flex items-center space-x-4">
             <span className="text-sm">Follow Us On:</span>
-            <div className="flex space-x-2">
+            <div className="flex space-x-2 ">
               <Facebook size={16} className="hover:text-orange-400 cursor-pointer transition-colors" />
               <Twitter size={16} className="hover:text-orange-400 cursor-pointer transition-colors" />
               <Linkedin size={16} className="hover:text-orange-400 cursor-pointer transition-colors" />

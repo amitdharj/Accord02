@@ -58,8 +58,8 @@ export default function KidsLanding() {
               <div className="absolute top-36 left-8 w-8 h-20 bg-pink-200 rounded-full transform -rotate-45"></div>
               <div className="absolute top-36 right-8 w-8 h-20 bg-pink-200 rounded-full transform rotate-45"></div>
               {/* Legs */}
-              <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-x-4 w-6 h-24 bg-blue-800 rounded-b-lg"></div>
-              <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-x-4 w-6 h-24 bg-blue-800 rounded-b-lg"></div>
+              <div className="absolute bottom-0 left-1/2 transform -translate-x-4 w-6 h-24 bg-blue-800 rounded-b-lg"></div>
+              <div className="absolute bottom-0 left-1/2 transform -translate-x-4 w-6 h-24 bg-blue-800 rounded-b-lg"></div>
             </div>
           </div>
         </div>

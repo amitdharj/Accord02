@@ -1,10 +1,8 @@
 import React from 'react';
 
-
-
  function AboutSection() {
   return (
-    <div className="relative bg-gradient-to-br from-orange-300 via-orange-400 to-orange-400 min-h-100 pb-40 overflow-hidden">
+    <div className="relative bg-gradient-to-br from-orange-300 via-orange-400 to-orange-400 min-h-90 pb-40 overflow-hidden">
       {/* Main content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-96 px-8">
         {/* About heading */}
