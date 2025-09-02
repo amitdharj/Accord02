@@ -68,10 +68,10 @@ export default function Header() {
                 {isCategoryOpen && (
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border z-50">
                     <div className="py-2">
-                      <NavLink to="/Category" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Exam</NavLink>
-                      <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Class</NavLink>
-                      <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Teachers</NavLink>
-                      <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Students</NavLink>
+                      <NavLink to="/Category" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Events</NavLink>
+                      <NavLink to="/ClassCategory" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Class</NavLink>
+                      <NavLink to="/TeachersCategory" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Teachers</NavLink>
+                      <NavLink to="/StudentCategory" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Students</NavLink>
                     </div>
                   </div>
                 )}
@@ -121,10 +121,10 @@ export default function Header() {
                 </button>
                 {isMobileCategoryOpen && (
                   <div className="pl-4">
-                    <NavLink to="/Category" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Exam</NavLink>
-                    <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Class</NavLink>
-                    <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Teachers</NavLink>
-                    <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Students</NavLink>
+                    <NavLink to="/Category" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Events</NavLink>
+                    <NavLink to="/ClassCategory" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Class</NavLink>
+                    <NavLink to="/TeachersCategory" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Teachers</NavLink>
+                    <NavLink to="/StudentCategory" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Students</NavLink>
                   </div>
                 )}
                 <NavLink to="/" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Home</NavLink>

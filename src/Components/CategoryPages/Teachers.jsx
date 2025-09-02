@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Calendar, User, Tag, Search, ChevronRight, BookOpen, FileText, Award, Clock, Eye } from 'lucide-react';
 
-const CategoryPage = () => {
+const TeachersCategory = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   
@@ -15,7 +15,7 @@ const CategoryPage = () => {
       category: "Exam",
       readTime: "5 min read",
       views: "234",
-      image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/danceEvents.jpg",
       tags: ["Assessment", "Learning", "Kids"]
     },
     {
@@ -27,7 +27,7 @@ const CategoryPage = () => {
       category: "Exam",
       readTime: "7 min read",
       views: "187",
-      image: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "DrawingEvent.webp",
       tags: ["Testing", "Education", "Tips"]
     },
     {
@@ -39,7 +39,7 @@ const CategoryPage = () => {
       category: "Exam",
       readTime: "4 min read",
       views: "312",
-      image: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "MusicEvent.jpeg",
       tags: ["Preparation", "Study", "Success"]
     },
     {
@@ -51,7 +51,7 @@ const CategoryPage = () => {
       category: "Exam",
       readTime: "6 min read",
       views: "428",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/GameEvent.jpg",
       tags: ["Study Tips", "Learning", "Methods"]
     },
     {
@@ -63,21 +63,10 @@ const CategoryPage = () => {
       category: "Exam",
       readTime: "5 min read",
       views: "156",
-      image: "https://images.unsplash.com/photo-1522661067900-ab829854a57f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/YogaEvent.jpg",
       tags: ["Environment", "Stress-Free", "Support"]
     },
-    {
-      id: 6,
-      title: "Assessment Tools for Early Childhood Education",
-      excerpt: "Explore various assessment methods and tools that are age-appropriate for kindergarten students to track their learning progress effectively.",
-      author: "Jennifer Lee",
-      date: "March 3, 2024",
-      category: "Exam",
-      readTime: "8 min read",
-      views: "289",
-      image: "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      tags: ["Tools", "Assessment", "Progress"]
-    },
+   
    
   ];
 
@@ -96,7 +85,7 @@ const CategoryPage = () => {
             <ChevronRight size={16} />
             <a href="#" className="hover:text-orange-600 transition-colors">Categories</a>
             <ChevronRight size={16} />
-            <span className="text-orange-700 font-medium">Exam</span>
+            <span className="text-orange-700 font-medium">Teachers</span>
           </nav>
         </div>
       </div>
@@ -107,9 +96,9 @@ const CategoryPage = () => {
           <div className="inline-flex items-center justify-center w-20 h-20 bg-white/10 rounded-full mb-6">
             <BookOpen size={40} />
           </div>
-          <h1 className="text-4xl lg:text-5xl font-bold mb-4">Exam Category</h1>
+          <h1 className="text-4xl lg:text-5xl font-bold mb-4">Teachers</h1>
           <p className="text-xl text-stone-700 mb-8 max-w-2xl mx-auto">
-            Discover helpful resources, tips, and insights for kindergarten assessments and educational evaluations
+            Explore exciting events, fun workshops, and learning opportunities created to inspire and connect students, teachers, and parents.
           </p>
           <div className="flex items-center justify-center text-lg text-stone-700">
             <FileText size={20} className="mr-2" />
@@ -143,78 +132,6 @@ const CategoryPage = () => {
               </p>
             </div>
 
-            {/* Articles Grid */}
-            <div className="space-y-8">
-              {filteredPosts.map((post) => (
-                <article key={post.id} className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden group">
-                  <div className="flex flex-col md:flex-row">
-                    {/* Image */}
-                    <div className="md:w-1/3">
-                      <div className="h-64 md:h-full overflow-hidden">
-                        <img 
-                          src={post.image} 
-                          alt={post.title}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                        />
-                      </div>
-                    </div>
-
-                    {/* Content */}
-                    <div className="md:w-2/3 p-6">
-                      {/* Category Badge */}
-                      <div className="inline-flex items-center px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-4">
-                        <Tag size={14} className="mr-1" />
-                        {post.category}
-                      </div>
-
-                      {/* Title */}
-                      <h2 className="text-2xl font-bold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors cursor-pointer">
-                        {post.title}
-                      </h2>
-
-                      {/* Excerpt */}
-                      <p className="text-gray-600 mb-4 line-clamp-3">
-                        {post.excerpt}
-                      </p>
-
-                      {/* Meta Info */}
-                      <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 mb-4">
-                        <div className="flex items-center">
-                          <User size={16} className="mr-1" />
-                          {post.author}
-                        </div>
-                        <div className="flex items-center">
-                          <Calendar size={16} className="mr-1" />
-                          {post.date}
-                        </div>
-                        <div className="flex items-center">
-                          <Clock size={16} className="mr-1" />
-                          {post.readTime}
-                        </div>
-                        <div className="flex items-center">
-                          <Eye size={16} className="mr-1" />
-                          {post.views} views
-                        </div>
-                      </div>
-
-                      {/* Tags */}
-                      <div className="flex flex-wrap gap-2 mb-4">
-                        {post.tags.map((tag, index) => (
-                          <span key={index} className="px-2 py-1 bg-gray-100 text-gray-600 rounded text-xs">
-                            #{tag}
-                          </span>
-                        ))}
-                      </div>
-
-                      {/* Read More Button */}
-                      <button className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors">
-                        Read More <ChevronRight size={16} className="ml-1" />
-                      </button>
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
 
             {/* Pagination */}
             <div className="flex justify-center mt-12">
@@ -291,4 +208,4 @@ const CategoryPage = () => {
   );
 };
 
-export default CategoryPage;
+export default TeachersCategory;

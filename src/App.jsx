@@ -16,7 +16,10 @@ import ProgramSection from "./Components/Programs/Program";
 import ContactSection from "./Components/Contact/ContactSection";
 import YogaSection from "./Components/Yoga_Dance/Yoga";
 import MagazineSection from "./Components/Yoga_Dance/MagazineSection";
-import CategoryPage from "./Components/CategoryPages/Category";
+import EventCategoryPage from "./Components/CategoryPages/EventCategory";
+import ClassCategory from "./Components/CategoryPages/ClassCategory";
+import StudentCategory from "./Components/CategoryPages/Students";
+import TeachersCategory from "./Components/CategoryPages/Teachers";
 
 
 function App() {
@@ -75,14 +78,11 @@ function App() {
               </>
             }
           />
-          <Route
-            path="/Category"
-            element={
-              <>
-                <CategoryPage />
-              </>
-            }
-          />
+          
+          <Route path="/Category" element={<EventCategoryPage />}/>
+          <Route path="/ClassCategory" element={<ClassCategory />}/>
+          <Route path="/TeachersCategory" element={<TeachersCategory/>}/>
+          <Route path="/StudentCategory" element={<StudentCategory />}/>
 
         </Routes>
         <Footer />
