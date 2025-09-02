@@ -16,6 +16,7 @@ import ProgramSection from "./Components/Programs/Program";
 import ContactSection from "./Components/Contact/ContactSection";
 import YogaSection from "./Components/Yoga_Dance/Yoga";
 import MagazineSection from "./Components/Yoga_Dance/MagazineSection";
+import CategoryPage from "./Components/CategoryPages/Category";
 
 
 function App() {
@@ -74,6 +75,15 @@ function App() {
               </>
             }
           />
+          <Route
+            path="/Category"
+            element={
+              <>
+                <CategoryPage />
+              </>
+            }
+          />
+
         </Routes>
         <Footer />
       </HashRouter>

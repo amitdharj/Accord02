@@ -5,6 +5,7 @@ import {Link,NavLink} from 'react-router-dom';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
+  const [isMobileCategoryOpen, setIsMobileCategoryOpen] = useState(false);
 
   return (
     <div className="max-w-screen text-wrap m-auto">
@@ -67,10 +68,10 @@ export default function Header() {
                 {isCategoryOpen && (
                   <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg border z-50">
                     <div className="py-2">
-                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Exam</a>
-                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Class</a>
-                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Teachers</a>
-                      <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Students</a>
+                      <NavLink to="/Category" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Exam</NavLink>
+                      <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Class</NavLink>
+                      <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Teachers</NavLink>
+                      <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Students</NavLink>
                     </div>
                   </div>
                 )}
@@ -106,14 +107,26 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Mobile Menu */}
+           {/* Mobile Menu */}
           {isMenuOpen && (
             <div className="lg:hidden mt-4 pb-4 border-t border-orange-200">
               <nav className="flex flex-col space-y-3 mt-4">
-                <button className="flex items-center justify-between text-gray-700 hover:text-orange-500 transition-colors font-medium">
+                <button
+                  type="button"
+                  className="flex items-center justify-between text-gray-700 hover:text-orange-500 transition-colors font-medium"
+                  onClick={() => setIsMobileCategoryOpen((prev) => !prev)}
+                >
                   <span>Category</span>
-                  <ChevronDown size={16} />
+                  <ChevronDown size={16} className={isMobileCategoryOpen ? "rotate-180 transition-transform" : "transition-transform"} />
                 </button>
+                {isMobileCategoryOpen && (
+                  <div className="pl-4">
+                    <NavLink to="/Category" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Exam</NavLink>
+                    <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Class</NavLink>
+                    <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Teachers</NavLink>
+                    <NavLink to="/CategoryPage" className="block px-4 py-2 text-gray-700 hover:bg-orange-50">Students</NavLink>
+                  </div>
+                )}
                 <NavLink to="/" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Home</NavLink>
                 <NavLink to="/AboutSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">About Us</NavLink>
                 <NavLink to="/ProgramSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium">Programs</NavLink>
