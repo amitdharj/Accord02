@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -116,28 +117,34 @@ const Footer = () => {
             <div className="w-12 h-1 bg-orange-400 mb-6"></div>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
+                <NavLink to="/" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
                   <span className="mr-2 text-orange-400">›</span>
-                  Our Teachers
-                </a>
+                  Home
+                </NavLink>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
+                <NavLink to="/AboutSection" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
                   <span className="mr-2 text-orange-400">›</span>
-                  Our Students
-                </a>
+                  About Us
+                </NavLink>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
+                <NavLink to="/ProgramSection"  className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
                   <span className="mr-2 text-orange-400">›</span>
-                  Our School
-                </a>
+                  Programs
+                </NavLink>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
+                <NavLink to="/YogaSection" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
                   <span className="mr-2 text-orange-400">›</span>
-                  Education
-                </a>
+                  Yoga & Dance
+                </NavLink>
+              </li>
+              <li>
+                <NavLink to="/ContactSection" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
+                  <span className="mr-2 text-orange-400">›</span>
+                  Contact
+                </NavLink>
               </li>
             </ul>
           </div>

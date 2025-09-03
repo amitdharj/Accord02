@@ -86,10 +86,7 @@ export default function Header() {
             {/* Right Side Icons & CTA */}
             <div className="flex items-center space-x-4">
               <div className="hidden md:flex items-center space-x-3">
-                <div className="relative">
-                  <ShoppingCart size={20} className="text-gray-600 hover:text-orange-500 cursor-pointer transition-colors" />
-                  <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
-                </div>
+                
                 <Search size={20} className="text-gray-600 hover:text-orange-500 cursor-pointer transition-colors" />
               </div>
               
