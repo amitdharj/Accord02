@@ -28,7 +28,7 @@ const classes = [
   {
     title: "Yoga Classes",
     description: "Lorem ipsum dolor consectetur the adipiscing elit...",
-    image: "/Art.jpg", // replace with your images
+    image: "/YogaEvent.jpg", // replace with your images
     age: "(2-5 years)",
     weekly: "5 Days",
     time: "4.30 Hrs",

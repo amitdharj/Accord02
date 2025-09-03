@@ -55,8 +55,7 @@ export default function HomePage () {
 
             {/* Description */}
             <p className="text-gray-600 text-lg max-w-md leading-relaxed">
-              Suspendisse non blandit sapien Nunc eleifend, enim et porta 
-              porta eros risus tincidunt diam, vel sodales
+              Every little step is a big adventure! Let’s explore, play, and learn in a world full of fun and care.
             </p>
 
             {/* Action Buttons */}

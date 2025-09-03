@@ -119,15 +119,14 @@ export default function AboutUsSection() {
             <div className="animate-fade-in-up">
               <p className="text-orange-400 font-semibold text-lg mb-2">About Us</p>
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
-                Learn To Play, Converse With Confidence
+                Discover, Learn & Grow with Confidence
               </h2>
             </div>
 
             {/* Description */}
             <div className="animate-fade-in-up" style={{animationDelay: '0.2s'}}>
               <p className="text-gray-600 text-lg leading-relaxed">
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                Suspendisse gravida vitae nisl in tincidunt.
+                At our school, we believe learning should be fun, interactive, and confidence-building. Our programs are designed to help children explore their talents, develop communication skills, and gain the courage to express themselves freely.
               </p>
             </div>
 

@@ -93,8 +93,8 @@ export default function OurValueSection() {
                   </div>
                   <div className="flex-1 ">
                     <h3 className="text-xl font-bold text-gray-800 mb-2">Teacher Training And Progress</h3>
-                    <p className="text-gray-600 mb-2">Adipiscing elit Praesent luctus laoreet iaculis</p>
-                    <p className="text-gray-600 text-sm">Curabitur rutrum lectus augue, ut pulvinar.</p>
+                    <p className="text-gray-600 mb-2">We ensure our teachers stay updated with modern methods, providing the best learning experience for every child.</p>
+                    
                   </div>
                 </div>
               </div>
@@ -110,9 +110,8 @@ export default function OurValueSection() {
                     </svg>
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-800 mb-2">Nanny Selection 24/7</h3>
-                    <p className="text-gray-600 mb-2">Adipiscing elit Praesent luctus laoreet iaculis</p>
-                    <p className="text-gray-600 text-sm">Curabitur rutrum lectus augue, ut pulvinar.</p>
+                    <h3 className="text-xl font-bold text-gray-800 mb-2">A Safe and Inspiring Place for Little Learners</h3>
+                    <p className="text-gray-600 mb-2">Our campus offers a secure, friendly environment where kids learn, play, and explore with confidence and joy.</p>
                   </div>
                 </div>
               </div>
@@ -189,8 +188,7 @@ export default function OurValueSection() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-gray-800 mb-2">Advanced Placement Courses</h3>
-                    <p className="text-gray-600 mb-2">Adipiscing elit Praesent luctus laoreet iaculis</p>
-                    <p className="text-gray-600 text-sm">Curabitur rutrum lectus augue, ut pulvinar.</p>
+                    <p className="text-gray-600 mb-2">Exciting programs designed to challenge curious minds and help children explore beyond standard classroom learning.</p>
                   </div>
                 </div>
               </div>
@@ -207,8 +205,8 @@ export default function OurValueSection() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-gray-800 mb-2">Self-Contained Gifted Programs</h3>
-                    <p className="text-gray-600 mb-2">Adipiscing elit Praesent luctus laoreet iaculis</p>
-                    <p className="text-gray-600 text-sm">Curabitur rutrum lectus augue, ut pulvinar.</p>
+                    <p className="text-gray-600 mb-2">Creative activities crafted to nurture talents, boost confidence, and bring out the best in every young learner.</p>
+                    <p className="text-gray-600 mb-2">Nurturing creativity and genius.</p>
                   </div>
                 </div>
               </div>

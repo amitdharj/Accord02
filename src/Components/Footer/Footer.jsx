@@ -79,7 +79,7 @@ const Footer = () => {
                   <div className="absolute -top-1 -right-1 text-orange-400 text-lg">★</div>
                 </div>
               </div>
-              <h2 className="text-3xl font-bold text-gray-700">Kidsa</h2>
+              <h2 className="text-3xl font-bold text-gray-700">Accord</h2>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
               Phasellus ultrices aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis

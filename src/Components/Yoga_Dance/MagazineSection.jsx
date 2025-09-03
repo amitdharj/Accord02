@@ -5,17 +5,17 @@ const MagazineSection = () => {
   const articles = [
     {
       image: "Asana1.avif",
-      title: "Stimmtraining: Wie du die Stimme im Yoga einsetzt",
+      title: "Increases Self-Confidence – Builds a positive connection between mind and body.",
       alt: "Man in teal shirt practicing yoga breathing"
     },
     {
       image: "/yoga3.jpg",
-      title: "Erdung: Nicht die Bodenhaftung verlieren!",
+      title: "Enhances Posture – Corrects body alignment and prevents back or neck pain.",
       alt: "Person practicing yoga in nature with rainbow"
     },
     {
       image: "/yoga-02.webp",
-      title: "Element Erde - Vertrauen, Sicherheit, Stabilität",
+      title: "Inner Peace – Promotes self-awareness and emotional balance.",
       alt: "Person lying in yoga pose in a field"
     }
   ];
@@ -25,11 +25,11 @@ const MagazineSection = () => {
       <div className="container mx-auto px-6">
         {/* Header Section */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-teal-700 mb-4">
-            Die ganze Welt des Yoga im Yoga-Magazin
+          <h2 className="text-3xl lg:text-4xl font-bold text-orange-500 mb-4">
+            Explore the World of Yoga in Our Yoga Magazine
           </h2>
           <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Hier erfährst du alles über die ganzheitliche Wirkung der Yoga-Übungen, Meditation, Achtsamkeit, Yoga-Philosophie und vieles mehr!
+            Discover everything about the holistic benefits of yoga—mindful practices, meditation, yoga philosophy, and so much more!
           </p>
         </div>
 
@@ -51,19 +51,19 @@ const MagazineSection = () => {
               </div>
 
               {/* Content Container */}
-              <div className="bg-teal-600 text-white p-6">
+              <div className="bg-orange-500 text-stone-700 p-6">
                 <h3 className="text-lg font-semibold mb-6 leading-snug min-h-[3.5rem] flex items-center">
                   {article.title}
                 </h3>
                 
-                {/* CTA Button */}
-                <button className="group/btn flex items-center gap-2 text-white hover:text-teal-200 transition-colors duration-200 font-medium">
+                {/* CTA Button
+                <button className="group/btn flex items-center gap-2 text-stone-700 hover:text-teal-200 transition-colors duration-200 font-medium">
                   <span>Zum Artikel</span>
                   <ArrowRight 
                     size={16} 
                     className="group-hover/btn:translate-x-1 transition-transform duration-200" 
                   />
-                </button>
+                </button> */}
               </div>
             </div>
           ))}

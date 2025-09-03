@@ -22,14 +22,14 @@ const EventsSection = () => {
     },
     {
       id: 2,
-      title: "The complete web developer guideline 2024",
+      title: "Get ready for an unforgettable day filled with music",
       date: "May 18, 2024",
       location: "6391 Elgin St, Celina, USA",
       image: "/api/placeholder/400/250",
       reviews: 10,
       rating: 5,
       category: "workshops",
-      description: "Comprehensive workshop for aspiring web developers covering modern technologies and best practices.",
+      description: "Our School Music Festival 2024 will showcase the amazing talents of our students and bring the whole school community together for a day of fun and celebration.",
       time: "9:00 AM - 5:00 PM",
       attendees: 50
     },

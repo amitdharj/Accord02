@@ -6,29 +6,30 @@ const TestimonialSection = () => {
 
   const testimonials = [
     {
-      text: "Consequat per conubia nostra, per inceptos himenaeos. Suspendisse gravida vitae nisl Class aptent taciti sociosqu ad litora",
+      text: "A wonderful learning environment with passionate and supportive faculty. Every day my daughter comes home excited about what she learned.",
       author: "Jenny Wilson",
       color: "bg-slate-500"
     },
     {
-      text: "Consequat per conubia nostra, per inceptos himenaeos. Suspendisse gravida vitae nisl Class aptent taciti sociosqu ad litora",
+      text: "The academic programs are well-structured and help children learn in a fun and engaging way. My child has shown amazing progress!",
       author: "Esther Howard",
       color: "bg-teal-400"
     },
     {
-      text: "Consequat per conubia nostra, per inceptos himenaeos. Suspendisse gravida vitae nisl Class aptent taciti sociosqu ad litora",
+      text: "I love how safety and security are prioritized without compromising on fun and learning",
       author: "Wade Warren",
       color: "bg-orange-400"
     },
     {
-      text: "Amazing experience with this educational platform. My children have learned so much and are always excited for their classes.",
+      text: "This school fosters kindness, teamwork, and respect, helping children grow as responsible individuals.",
       author: "Sarah Johnson",
       color: "bg-purple-400"
     },
     {
-      text: "The teachers are incredibly dedicated and the curriculum is well-structured. Highly recommend for any parent.",
-      author: "Michael Chen",
-      color: "bg-fuchsia-700"
+      text: "From music to sports, the extracurricular opportunities here are fantastic. My child has discovered new interests and talents.",
+      color: "bg-fuchsia-700",
+      author: "Michael Brown"
+    
     }
   ];
 

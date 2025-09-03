@@ -120,8 +120,7 @@ import { Link } from 'react-router-dom';
 
             {/* Description */}
             <p className="text-gray-600 text-lg leading-relaxed">
-              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-              Suspendisse gravida vitae nisl in tincidunt.
+              We create a fun, safe, and loving environment where every child can learn, play, and grow with confidence. Our goal is to make the early years happy and meaningful for your little one.
             </p>
 
             {/* Features grid */}
