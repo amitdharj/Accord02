@@ -51,7 +51,7 @@ const MagazineSection = () => {
               </div>
 
               {/* Content Container */}
-              <div className="bg-orange-500 text-stone-700 p-6">
+              <div className="bg-orange-200 text-stone-700 p-6">
                 <h3 className="text-lg font-semibold mb-6 leading-snug min-h-[3.5rem] flex items-center">
                   {article.title}
                 </h3>
