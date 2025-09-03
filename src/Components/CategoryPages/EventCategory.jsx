@@ -89,6 +89,7 @@ const EventCategoryPage = () => {
           </nav>
         </div>
       </div>
+      
 
       {/* Header Section */}
       <div className="bg-orange-400 text-stone-700 py-16">
@@ -104,8 +105,13 @@ const EventCategoryPage = () => {
             <FileText size={20} className="mr-2" />
             <span>{examPosts.length} Articles Available</span>
           </div>
+          
         </div>
+
+        
       </div>
+      
+
 
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col lg:flex-row gap-8">

@@ -363,3 +363,4 @@ const StudentCategory = () => {
 };
 
 export default StudentCategory;
+

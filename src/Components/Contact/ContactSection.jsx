@@ -119,24 +119,39 @@ export default function ContactSection() {
             ultrices.
           </p>
 
-          <form className="space-y-4">
+          <form
+            className="space-y-4"
+            action="https://formsubmit.co/iamdhar9631@gmail.com"
+            method="POST"
+          >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="text"
+                name="name"
                 placeholder="Your Name"
+                required
                 className="border border-gray-300 rounded-md p-3 w-full focus:ring-2 focus:ring-orange-400 outline-none"
               />
               <input
                 type="email"
+                name="email"
                 placeholder="Your Email"
+                required
                 className="border border-gray-300 rounded-md p-3 w-full focus:ring-2 focus:ring-orange-400 outline-none"
               />
             </div>
             <textarea
+              name="message"
               rows="4"
               placeholder="Write Message"
+              required
               className="border border-gray-300 rounded-md p-3 w-full focus:ring-2 focus:ring-orange-400 outline-none"
             ></textarea>
+
+            {/* Optional hidden fields for FormSubmit */}
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+
             <button
               type="submit"
               className="bg-orange-400 text-white px-6 py-3 rounded-full hover:bg-orange-500 transition"
