@@ -104,23 +104,9 @@ const TeachersCategory = () => {
             <FileText size={20} className="mr-2" />
             <span>{examPosts.length} Articles Available</span>
           </div>
-        </div>
-
-        
+        </div>  
       </div>
-      {/* Curved bottom border */}
-      <div className="absolute bottom-0 left-0 right-0">
-        <svg
-          viewBox="0 0 1200 80"
-          className="w-full h-20"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M0,80 Q50,20 100,40 T200,40 Q250,20 300,40 T400,40 Q450,20 500,40 T600,40 Q650,20 700,40 T800,40 Q850,20 900,40 T1000,40 Q1050,20 1100,40 T1200,40 L1200,80 Z"
-            fill="white"
-          />
-        </svg>
-      </div>
+      
 
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
