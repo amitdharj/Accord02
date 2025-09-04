@@ -8,7 +8,7 @@ export default function HomePage () {
       {/* Background decorative elements */}
       <div className="absolute inset-0">
         {/* Large orange circle */}
-        <div className="absolute top-20 right-0 w-96 h-96 bg-gradient-to-bl from-orange-300 to-yellow-300 rounded-full opacity-80 translate-x-32"></div>
+        <div className="absolute top-20 right-0 w-96 h-96 bg-gradient-to-bl from-orange-300 to-yellow-300 rounded-full opacity-80 translate-x-32 animate-pulse"></div>
         
         {/* Floating geometric shapes */}
         <div className="absolute top-32 left-20 w-12 h-12 bg-blue-200 rounded-lg rotate-12 opacity-70"></div>

@@ -37,9 +37,9 @@ export default function Header() {
             {/* Logo */}
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-pink-400 rounded-full flex items-center justify-center">
-                <span className="text-white text-xl font-bold">⭐</span>
+                <img src="/accorn-logo.png" alt="logo" className='w-full h-full' />
               </div>
-              <a href="/" className="text-2xl font-bold text-gray-800">Accord</a>
+              <a href="/" className="text-2xl font-bold text-gray-800">Acorn</a>
             </div>
 
             {/* Desktop Navigation */}

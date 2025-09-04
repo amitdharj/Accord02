@@ -26,9 +26,9 @@ export default function KidsLanding() {
             <p className="text-stone-700 text-lg font-medium mb-4">Get Your Quality</p>
             <h1 className="text-stone-700 text-5xl lg:text-6xl font-bold leading-tight mb-8">
               Skills Certificate From<br />
-              The Kidsa
+              Accorn
             </h1>
-            <button className="bg-stone-400 text-gray-800 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 flex items-center gap-2 shadow-lg">
+            <button className="bg-stone-300 text-gray-800 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors duration-300 flex items-center gap-2 shadow-lg">
               Apply Now
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -68,10 +68,10 @@ export default function KidsLanding() {
       {/* Decorative elements */}
       <div className="absolute top-20 left-20">
         {/* Hot air balloon */}
-        <div className="relative">
-          <div className="w-16 h-20 bg-white bg-opacity-20 rounded-full border-2 border-white border-opacity-40"></div>
-          <div className="w-4 h-8 bg-white bg-opacity-20 mx-auto"></div>
-          <div className="w-8 h-4 bg-white bg-opacity-20 mx-auto rounded"></div>
+        <div className="relative animate-bounce delay-700">
+          <div className="w-16 h-20 bg-fuchsia-500 bg-opacity-20 rounded-full border-2 border-white border-opacity-40"></div>
+          <div className="w-4 h-8 bg-green-300 bg-opacity-20 mx-auto"></div>
+          <div className="w-8 h-4 bg-green-200 bg-opacity-20 mx-auto rounded"></div>
         </div>
       </div>
 
@@ -89,11 +89,11 @@ export default function KidsLanding() {
         <div className="w-8 h-20 bg-white bg-opacity-20 rounded-full transform rotate-12"></div>
       </div>
 
-      <div className="absolute bottom-32 left-32">
+      <div className="absolute bottom-32 left-32 animate-spin delay-1000">
         {/* Planet with ring */}
         <div className="relative">
-          <div className="w-12 h-12 bg-white bg-opacity-20 rounded-full"></div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-1 bg-white bg-opacity-20 rounded-full rotate-12"></div>
+          <div className="w-12 h-12 bg-purple-700 bg-opacity-20 rounded-full"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-1 bg-emerald-400 bg-opacity-20 rounded-full rotate-12"></div>
         </div>
       </div>
 
