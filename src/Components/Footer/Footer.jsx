@@ -155,28 +155,28 @@ const Footer = () => {
             <div className="w-12 h-1 bg-orange-400 mb-6"></div>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
+                <NavLink to="/Category" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
                   <span className="mr-2 text-orange-400">›</span>
-                  Our Teachers
-                </a>
+                  Events
+                </NavLink>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
+                <NavLink to="/ClassCategory" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
                   <span className="mr-2 text-orange-400">›</span>
-                  Our Students
-                </a>
+                  CLass
+                </NavLink>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
+                <NavLink to="/TeachersCategory" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
                   <span className="mr-2 text-orange-400">›</span>
-                  Our School
-                </a>
+                  Teachers
+                </NavLink>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
+                <NavLink to="/StudentCategory" className="text-gray-600 hover:text-orange-400 transition-colors flex items-center">
                   <span className="mr-2 text-orange-400">›</span>
-                  Education
-                </a>
+                  Students
+                </NavLink>
               </li>
             </ul>
           </div>

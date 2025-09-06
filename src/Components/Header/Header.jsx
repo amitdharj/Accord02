@@ -177,10 +177,7 @@ export default function Header() {
                 <NavLink to="/YogaSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>Yoga & Dance</NavLink>
                 <NavLink to="/ContactSection" className="text-gray-700 hover:text-orange-500 transition-colors font-medium" onClick={() => setIsMenuOpen(false)}>Contact</NavLink>
                 <div className="flex items-center space-x-4 pt-3 border-t border-orange-200">
-                  <div className="relative">
-                    <ShoppingCart size={20} className="text-gray-600" />
-                    <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
-                  </div>
+                  
                   <Search size={20} className="text-gray-600" />
                 </div>
               </nav>
