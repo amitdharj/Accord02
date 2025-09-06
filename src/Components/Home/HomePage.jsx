@@ -86,19 +86,13 @@ export default function HomePage () {
                 <div className="aspect-square bg-gradient-to-br from-pink-200 to-purple-200 rounded-2xl flex items-center justify-center">
                   {/* Placeholder for the child image */}
                   <div className="text-center space-y-4">
-                    <div className="w-32 h-32 bg-gradient-to-br from-orange-300 to-pink-300 rounded-full mx-auto flex items-center justify-center shadow-lg">
+                    <div className="w-32 h-32 bg-gradient-to-br from-orange-400 to-green-300 rounded-full mx-auto flex items-center justify-center shadow-lg">
                       <span className="text-4xl">👧</span>
                     </div>
-                    <div className="space-y-2">
-                      <div className="w-24 h-3 bg-red-300 rounded-full mx-auto"></div>
-                      <div className="w-16 h-3 bg-yellow-300 rounded-full mx-auto"></div>
-                      <div className="w-20 h-3 bg-green-300 rounded-full mx-auto"></div>
-                      <div className="w-18 h-3 bg-blue-300 rounded-full mx-auto"></div>
+                    <div className='h-1xl w-1xl'>
+                    <img src="/Accornpic01.jpg" alt="" className='rounded-2xl ' />
                     </div>
-                    <div className="flex justify-center space-x-2">
-                      <div className="w-8 h-12 bg-yellow-400 rounded"></div>
-                      <div className="w-8 h-12 bg-blue-400 rounded"></div>
-                    </div>
+                    
                   </div>
                 </div>
               </div>

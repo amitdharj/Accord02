@@ -36,10 +36,10 @@ export default function Header() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-pink-400 rounded-full flex items-center justify-center">
-                <img src="/accorn-logo.png" alt="logo" className='w-full h-full' />
+              <div className="w-14 h-14  flex items-center justify-center">
+                <img src="/acorn-logo.png" alt="logo"/>
               </div>
-              <a href="/" className="text-2xl font-bold text-gray-800">Acorn</a>
+              <a href="/" className="text-2xl font-bold text-gray-800">Little Acorn</a>
             </div>
 
             {/* Desktop Navigation */}
@@ -113,9 +113,9 @@ export default function Header() {
                 <Search size={20} className="text-gray-600 hover:text-orange-500 cursor-pointer transition-colors" />
               </div>
               
-              <button className="bg-gradient-to-r from-orange-400 to-pink-400 text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transition-all duration-300 hover:scale-105">
-                Get A Quote →
-              </button>
+              <NavLink to="/ContactSection" className="bg-gradient-to-r from-orange-400 to-pink-400 text-white px-6 py-2 rounded-full font-medium hover:shadow-lg transition-all duration-300 hover:scale-105">
+                Contact Us →
+              </NavLink>
 
               {/* Mobile Menu Button */}
               <button 

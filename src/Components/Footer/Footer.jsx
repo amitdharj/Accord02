@@ -66,21 +66,14 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="md:col-span-1">
             <div className="flex items-center mb-6">
-              {/* Rainbow Logo */}
+              {/* acorn Logo */}
               <div className="relative mr-4">
-                <div className="w-16 h-16 relative">
-                  {/* Rainbow arcs */}
-                  <div className="absolute inset-0 border-4 border-orange-300 rounded-full"></div>
-                  <div className="absolute inset-1 border-4 border-orange-400 rounded-full"></div>
-                  <div className="absolute inset-2 border-4 border-orange-500 rounded-full"></div>
-                  {/* Cloud */}
-                  <div className="absolute bottom-2 left-2 w-8 h-4 bg-white rounded-full"></div>
-                  <div className="absolute bottom-1 left-3 w-6 h-3 bg-white rounded-full"></div>
-                  {/* Star */}
-                  <div className="absolute -top-1 -right-1 text-orange-400 text-lg">★</div>
+                <div className="w-26 h-26 relative">
+                  <img src="/acorn-logo.png" alt="" />
+                  
                 </div>
               </div>
-              <h2 className="text-3xl font-bold text-gray-700">Acorn</h2>
+              <h2 className="text-3xl font-bold text-gray-700">Little Acorn</h2>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed">
               Phasellus ultrices aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis
