@@ -59,35 +59,13 @@ import { Link } from 'react-router-dom';
           {/* Left side - Images */}
           <div className="relative">
             {/* Main image container with organic shape */}
-            <div className="relative">
+            <div className="relative pt-5">
               {/* Organic background shape */}
-              <div className="absolute inset-0 bg-gradient-to-br from-pink-200 to-purple-200 opacity-80 transform -rotate-3 rounded-[60px]"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-pink-200 to-purple-200 opacity-80 transform -rotate-6 rounded-[60px]"></div>
               
               {/* Main teaching scene */}
               <div className="relative z-10 bg-white rounded-[50px] p-6 shadow-xl">
-                <div className="aspect-[4/3] bg-gradient-to-br from-blue-50 to-pink-50 rounded-[40px] flex items-center justify-center overflow-hidden">
-                  {/* Teacher and student placeholder */}
-                  <div className="text-center space-y-4">
-                    <div className="flex justify-center space-x-4">
-                      {/* Teacher */}
-                      <div className="text-center">
-                        <div className="w-16 h-16 bg-gradient-to-br from-pink-300 to-purple-300 rounded-full flex items-center justify-center mb-2">
-                          <span className="text-xl">👩‍🏫</span>
-                        </div>
-                        <div className="w-12 h-6 bg-white rounded-t-full"></div>
-                      </div>
-                      {/* Student */}
-                      <div className="text-center">
-                        <div className="w-14 h-14 bg-gradient-to-br from-blue-300 to-green-300 rounded-full flex items-center justify-center mb-2">
-                          <span className="text-lg">👧</span>
-                        </div>
-                        <div className="w-10 h-5 bg-blue-400 rounded-t-full"></div>
-                      </div>
-                    </div>
-                    {/* Book/table representation */}
-                    <div className="w-24 h-4 bg-yellow-300 rounded mx-auto"></div>
-                  </div>
-                </div>
+               <img src="/Accornpic02.jpg" alt="school pic" className="rounded-[50px]" />
               </div>
 
               {/* Small floating image - children playing */}

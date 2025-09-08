@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function HomePage () {
   return (
-    <div className="relative min-h-screen bg-gradient-to-br from-orange-50 to-pink-50 overflow-hidden">
+    <div className="relative min-h-screen  bg-gradient-to-br from-orange-50 to-pink-50 overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0">
         {/* Large orange circle */}
@@ -83,18 +83,9 @@ export default function HomePage () {
               
               {/* Image placeholder - In a real app, this would be an img tag */}
               <div className="relative z-10 bg-gradient-to-br from-blue-100 to-purple-100 rounded-3xl p-8 shadow-2xl">
-                <div className="aspect-square bg-gradient-to-br from-pink-200 to-purple-200 rounded-2xl flex items-center justify-center">
-                  {/* Placeholder for the child image */}
-                  <div className="text-center space-y-4">
-                    <div className="w-32 h-32 bg-gradient-to-br from-orange-400 to-green-300 rounded-full mx-auto flex items-center justify-center shadow-lg">
-                      <span className="text-4xl">👧</span>
-                    </div>
-                    <div className='h-1xl w-1xl'>
-                    <img src="/Accornpic01.jpg" alt="" className='rounded-2xl ' />
-                    </div>
+                
+                    <img src="/Accornpic01.jpg" alt="" className='rounded-2xl ' />    
                     
-                  </div>
-                </div>
               </div>
 
               {/* Floating elements around the image */}
